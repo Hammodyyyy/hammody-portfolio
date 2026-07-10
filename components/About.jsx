@@ -11,7 +11,7 @@ export default function About() {
           </div>
         </div>
         <div className="about-copy">
-          <div className="eyebrow mono"><span className="dot"></span>About</div>
+          <div className="eyebrow mono reveal"><span className="dot"></span>About</div>
           <div className="big reveal">
             Good game UI is invisible. <span className="serif">Great game UI is unforgettable</span> — I design for the second one.
           </div>

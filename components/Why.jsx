@@ -5,8 +5,11 @@ export default function Why() {
     <section className="sec wrap" id="why">
       <div className="head">
         <div>
-          <div className="eyebrow mono"><span className="dot"></span>Why work with me</div>
-          <h2 className="sec-title">Easy to hire.<br />Easy to work with.</h2>
+          <div className="eyebrow mono reveal"><span className="dot"></span>Why work with me</div>
+          <h2 className="sec-title" data-lines>
+            <span className="clip"><span className="ln">Easy to hire.</span></span>
+            <span className="clip"><span className="ln">Easy to work with.</span></span>
+          </h2>
         </div>
         <p className="sec-intro reveal">The things clients actually care about — and the reasons they keep coming back.</p>
       </div>

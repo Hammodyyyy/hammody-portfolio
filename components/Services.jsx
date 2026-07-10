@@ -5,8 +5,10 @@ export default function Services() {
     <section className="sec wrap" id="services">
       <div className="head">
         <div>
-          <div className="eyebrow mono"><span className="dot"></span>What I offer</div>
-          <h2 className="sec-title">Services.</h2>
+          <div className="eyebrow mono reveal"><span className="dot"></span>What I offer</div>
+          <h2 className="sec-title" data-lines>
+            <span className="clip"><span className="ln">Services.</span></span>
+          </h2>
         </div>
         <p className="sec-intro reveal">Hire me for a single screen or your game&apos;s whole interface. Every engagement ships design that&apos;s ready to build.</p>
       </div>

@@ -5,8 +5,10 @@ export default function Testimonials() {
     <section className="sec wrap" id="testimonials">
       <div className="head">
         <div>
-          <div className="eyebrow mono"><span className="dot"></span>Kind words</div>
-          <h2 className="sec-title">Testimonials.</h2>
+          <div className="eyebrow mono reveal"><span className="dot"></span>Kind words</div>
+          <h2 className="sec-title" data-lines>
+            <span className="clip"><span className="ln">Testimonials.</span></span>
+          </h2>
         </div>
       </div>
       <div className="quotes">

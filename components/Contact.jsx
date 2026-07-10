@@ -5,7 +5,10 @@ export default function Contact() {
     <section className="sec wrap" id="contact">
       <div className="contact-in reveal">
         <div className="eyebrow mono" style={{ justifyContent: "center" }}><span className="dot"></span>Let&apos;s build</div>
-        <h2>Got a game to<br /><span className="serif">level up?</span></h2>
+        <h2 data-lines>
+          <span className="clip"><span className="ln">Got a game to</span></span>
+          <span className="clip"><span className="ln serif">level up?</span></span>
+        </h2>
         <p>
           Tell me what you&apos;re building — a single killer screen or a full UI overhaul. Discord is the fastest way
           to reach me; send your game and what you need, and we&apos;ll take it from there.

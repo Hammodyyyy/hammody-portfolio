@@ -5,8 +5,11 @@ export default function Motion() {
     <section className="sec wrap" id="motion">
       <div className="head">
         <div>
-          <div className="eyebrow mono"><span className="dot"></span>Motion &amp; feel</div>
-          <h2 className="sec-title">Motion is the<br /><span className="serif">difference.</span></h2>
+          <div className="eyebrow mono reveal"><span className="dot"></span>Motion &amp; feel</div>
+          <h2 className="sec-title" data-lines>
+            <span className="clip"><span className="ln">Motion is the</span></span>
+            <span className="clip"><span className="ln"><span className="serif">difference.</span></span></span>
+          </h2>
         </div>
         <p className="sec-intro reveal">Most Roblox UI just sits there. Mine reacts — and that&apos;s what makes a game feel expensive.</p>
       </div>

@@ -15,6 +15,7 @@ export default function Nav() {
           <span></span><span></span><span></span>
         </button>
       </div>
+      <div className="nav-prog" aria-hidden="true"><i id="navProg"></i></div>
     </nav>
   );
 }
