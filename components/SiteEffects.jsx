@@ -177,7 +177,9 @@ export default function SiteEffects() {
       tl.from(".hero .eyebrow", { opacity: 0, y: 14, duration: 0.7 }, 0)
         .from(".hero h1 .ln", { yPercent: MASK_TRAVEL, duration: 1.2, ease: EASE_MASK, stagger: 0.1 }, 0.06)
         .from(".hero-ui", { y: 64, opacity: 0, duration: 1.2 }, 0.18)
-        .from(".hero-meta div", { y: 22, opacity: 0, duration: 0.7, stagger: 0.08 }, 0.5)
+        // Direct children only: `.hero-meta div` would also match .v and .l,
+        // double-applying the fade and stretching the stagger across 9 nodes.
+        .from(".hero-meta > div", { y: 22, opacity: 0, duration: 0.7, stagger: 0.08 }, 0.5)
         .from(".hero-sub", { y: 20, opacity: 0, duration: 0.7 }, 0.62)
         .from(".hero-cta", { y: 20, opacity: 0, duration: 0.7 }, 0.72)
         .from(".hero-chip", { scale: 0, opacity: 0, duration: 0.6, ease: "back.out(2)" }, 0.85)
